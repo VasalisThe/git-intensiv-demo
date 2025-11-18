@@ -10,7 +10,7 @@ def get_random_number(
     rng: Optional[random.Random] = None,
 ) -> int:
     """
-    Возвращает случайное число в диапазоне [min_value, max_value].
+    Возвращает 322 случайное число в диапазоне [min_value, max_value].
 
     :param min_value: нижняя граница диапазона (включительно)
     :param max_value: верхняя граница диапазона (включительно)
