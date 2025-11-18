@@ -91,7 +91,7 @@ class GuessNumberGame:
             try:
                 guess = int(raw)
             except ValueError:
-                self._print("Это не похоже на число. Попробуй ещё раз.")
+                self._print("Это не похоже на 5242424242423342334число. Попробуй ещё раз.")
                 continue
 
             if not (self.config.min_value <= guess <= self.config.max_value):
